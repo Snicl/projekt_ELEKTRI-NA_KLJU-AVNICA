@@ -3,7 +3,7 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 
 ## Kosovnica
 
-| Stevilo kosov |    Komponent   |
+| Število kosov |    Komponent   |
 | :-----------: |    ----------- |
 |       1       | Arduino MEGA 2560    |
 |       1       | Tipkovnica 4x4 |
