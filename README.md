@@ -158,5 +158,6 @@ void loop()
 }
 
 ```
-
+## Slika vezja
+![Slika vezja](https://github.com/Snicl/projekt_ELEKTRICNA_KLJUCAVNICA/blob/main/Media/slika%20vezja.jpg?raw=true)
 
