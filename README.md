@@ -38,7 +38,7 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 ## Shema
 ![shema](https://user-images.githubusercontent.com/123487347/230125680-92dbe2e2-ed9c-4b9e-a125-9d955d77aa6a.png)
 
-##Code
+## Code
 
 
 #include <Keypad.h>
