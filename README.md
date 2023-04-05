@@ -22,4 +22,5 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 
 
 ## shema
-![priredbeni seznam](
+![priredbeni seznam](![image](https://user-images.githubusercontent.com/123487347/229999316-66b4e315-d0e1-429e-a927-1f3c126a4ebb.png)
+
