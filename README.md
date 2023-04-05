@@ -22,7 +22,7 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 Vhodi
 | Oznaka v načrtu |    Naslov operanda   |    Vrsta kontakta   |    Pomen   |
 | :-----------: |    :-----------: |  :-----------:     |    -----------  |
-|       Stikalo      |  I<sub>1</sub>     |       1       |       1       |
+|       Stikalo      |  I<sub> 1</sub>     |       1       |       1       |
 |       Tipkovnica 4x4       |          1       |       1       |       1       |      
 
 
