@@ -11,7 +11,7 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 |       1       | Zelena LED     | 
 |    1          | Rdeča LED    |
 |     1         | Stikalo        |
-|      15       | Kabli          |
+|      15       | Vezice          |
 |    1          | Breadboard     |
 |    3          | Upor 220E     |
 |    1          | Potenciometer 10k     |
