@@ -18,7 +18,13 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 
 
 ## Priredbeni seznam
-![Priredbeni seznam](https://github.com/Snicl/projekt_ELEKTRICNA_KLJUCAVNICA/blob/main/Priredbeni%20seznam.PNG?raw=true)
+
+Vhodi
+| Oznaka v načrtu |    Naslov operanda   |    Vrsta kontakta   |    Pomen   |
+| :-----------: |    :-----------: |  :-----------:     |    -----------  |
+|       Stikalo      |   <sub></sub>  I1             |       1       |       1       |
+|       Tipkovnica 4x4       |          1       |       1       |       1       |      
+
 
 
 ## Shema
