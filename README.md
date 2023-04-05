@@ -40,6 +40,7 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 
 ## Code
 
+,,,
 
 #include <Keypad.h>
 #include <Wire.h> 
@@ -156,6 +157,6 @@ void loop()
     }
   }  
 }
-
+,,,
 
 
