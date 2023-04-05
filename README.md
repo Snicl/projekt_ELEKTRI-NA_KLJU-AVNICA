@@ -26,6 +26,17 @@ Vhodi
 |       Tipkovnica 4x4       | I<sub>2</sub>       |       N.O.       | Za vpisovanje kombinacij številk             |      
 
 
+Izhodi
+| Oznaka v načrtu |    Naslov operanda   |    Aktiven pri   |    Pomen   |
+| :-----------: |    :-----------: |  :-----------:     |    -----------  |
+|      LCD       |  Q<sub>1</sub>     |       1       |     Izpiše pritisnjene številke         |
+|       Zelena LED      | Q<sub>2</sub>       |       1       |    Zasveti če je kombinacija številk pravilna          |    
+|      Rdeča LED       | Q<sub>3</sub>       |       1       |       Zasveti če je kombinacija številk nepravilna       |   
+
+
+
+
+
 
 ## Shema
 ![shema]()
