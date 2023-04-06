@@ -44,4 +44,25 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 ![Slika vezja](https://github.com/Snicl/projekt_ELEKTRICNA_KLJUCAVNICA/blob/main/Media/Slika%20vezja.jpg?raw=true)
 
 ## Video
-[![Watch the video](https://github.com/Snicl/projekt_ELEKTRICNA_KLJUCAVNICA/blob/main/Media/Delovanje%20vezja.MOV)
+
+
+
+
+
+
+
+
+
+
+
+
+https://user-images.githubusercontent.com/123487347/230331351-6b7334bf-41eb-4ebf-afe4-a5d4e8bcd828.mp4
+
+
+
+
+
+
+
+
+
