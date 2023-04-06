@@ -117,16 +117,16 @@ void loop()
       {
           if (first == geslo)
           {
-            lcd.setCursor(0,1);
+            lcd.setCursor(0,0);
             lcd.print(first);
-            delay(200);
+            delay(300);
             lcd.clear();
-            delay(200);
-            //lcd.setCursor(0,1);
+            delay(300);
+            lcd.setCursor(0,0);
             lcd.print(first);
-            delay(200);
+            delay(300);
             lcd.clear();
-            delay(200);
+            delay(300);
             lcd.setCursor(0,3);
             lcd.print("Success");
             digitalWrite(led, HIGH);
@@ -169,6 +169,7 @@ void loop()
     }
   } 
 }
+
 
 ```
 
