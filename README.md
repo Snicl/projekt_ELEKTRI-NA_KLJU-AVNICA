@@ -23,16 +23,16 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 **Vhodi**
 | Oznaka v načrtu |    Naslov operanda   |    Vrsta kontakta   |    Pomen   |
 | :-----------: |    :-----------: |  :-----------:     |    -----------  |
-|       Stikalo      |       |       N.O.       | Omogoči uporabo tipkovnice za vpis kombinacij             |
-|       Tipkovnica 4x4       |       |       N.O.       | Za vpisovanje kombinacij številk             |      
+|       SW1      |  stikalo     |       N.O.       | Omogoči uporabo tipkovnice za vpis kombinacij             |
+|       Tipkovnica 4x4       |   Keypad    |              | Za vpisovanje kombinacij številk             |      
 
 
 **Izhodi**
 | Oznaka v načrtu |    Naslov operanda   |    Aktiven pri   |    Pomen   |
 | :-----------: |    :-----------: |  :-----------:     |    -----------  |
-|      LCD       |       |       1       |     Izpiše pritisnjene številke         |
-|       Zelena LED      |      |       1       |    Zasveti če je kombinacija številk pravilna          |    
-|      Rdeča LED       |        |       1       |       Zasveti če je kombinacija številk nepravilna       |   
+|      LCD       |       |             |     Izpiše pritisnjene številke         |
+|       Zelena LED      |      |       led       |    Zasveti če je kombinacija številk pravilna          |    
+|      Rdeča LED       |        |       led2       |       Zasveti če je kombinacija številk nepravilna       |   
 
 
 
