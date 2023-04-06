@@ -30,9 +30,9 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 **Izhodi**
 | Oznaka v načrtu |    Naslov operanda   |    Aktiven pri   |    Pomen   |
 | :-----------: |    :-----------: |  :-----------:     |    -----------  |
-|      LCD       |       |             |     Izpiše pritisnjene številke         |
-|       Zelena LED      |      |       led       |    Zasveti če je kombinacija številk pravilna          |    
-|      Rdeča LED       |        |       led2       |       Zasveti če je kombinacija številk nepravilna       |   
+|      LCD       |   lcd    |       1      |     Izpiše pritisnjene številke         |
+|       Zelena LED      | led     |        1      |    Zasveti če je kombinacija številk pravilna          |    
+|      Rdeča LED       |   led2     |        1      |       Zasveti če je kombinacija številk nepravilna       |   
 
 
 
