@@ -47,6 +47,7 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 ## Koda
 
 ```
+
 #include <Keypad.h>
 #include <Wire.h> 
 #include <LiquidCrystal.h>
@@ -86,7 +87,7 @@ pinMode(stikalo, INPUT);
 lcd.begin(16, 2);               // start lcd
 for(int i=0;i<=3;i++);
 lcd.setCursor(0,0);
-  lcd.print("Calculator by");
+  lcd.print("E kljucavnica by");
   lcd.setCursor(0,1);
   lcd.print("Klemen & Andraz");
 delay(2000);
@@ -112,7 +113,7 @@ void loop()
       lcd.setCursor(0,1);
       // preveri ali je vnos enak geslu
     
-      if ((first/1000)>1 && (first/1000)<10)
+      if ((first/1000)>=1 && (first/1000)<10)
       {
           if (first == geslo)
           {
@@ -136,16 +137,16 @@ void loop()
           }  
           else
           {
-            digitalWrite(led, LOW);
-            digitalWrite(led2, HIGH);
-            delay(500);
-            digitalWrite(led2, LOW);
-            delay(500);
-            digitalWrite(led2, HIGH);
-            delay(500);
-            digitalWrite(led2, LOW);
             lcd.setCursor(0,3);
             lcd.print("Poskusi znova!");
+            digitalWrite(led, LOW);
+            digitalWrite(led2, HIGH);
+            delay(200);
+            digitalWrite(led2, LOW);
+            delay(200);
+            digitalWrite(led2, HIGH);
+            delay(500);
+            digitalWrite(led2, LOW);
             first = 0;
             delay(2000);
             lcd.clear();
@@ -166,7 +167,7 @@ void loop()
       lcd.clear();
       break;
     }
-  }  
+  } 
 }
 
 ```
