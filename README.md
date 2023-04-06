@@ -58,7 +58,6 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 LiquidCrystal lcd(13, 12, 11, 10, 9, 8);
 
 long first = 0;
-double total = 0;
 long geslo = 5279;
 
 char Tipka;
@@ -89,7 +88,7 @@ for(int i=0;i<=3;i++);
 lcd.setCursor(0,0);
   lcd.print("Calculator by");
   lcd.setCursor(0,1);
-  lcd.print("Klemen in Andraz");
+  lcd.print("Klemen & Andraz");
 delay(2000);
 lcd.clear();
 lcd.setCursor(0, 0);
@@ -103,59 +102,66 @@ void loop()
     Tipka = customKeypad.getKey();
     switch(Tipka) 
     {
-    case '0' ... '9': // This keeps collecting the first value until a operator is pressed "+-*/"
+    case '1' ... '9': // This keeps collecting the first value until a operator is pressed "+-*/"
       lcd.setCursor(0,0);
       first = first * 10 + (Tipka - '0');
       lcd.print(first);
       break;
   
     case '=':
-  
-      //first = (total != 0 ? total : first);
       lcd.setCursor(0,1);
-      // get the collected the second number
-      if (first == geslo)
+      // preveri ali je vnos enak geslu
+    
+      if ((first/1000)>1 && (first/1000)<10)
       {
-        lcd.setCursor(0,1);
-        lcd.print(first);
-        delay(200);
-        lcd.clear();
-        delay(200);
-        //lcd.setCursor(0,1);
-        lcd.print(first);
-        delay(200);
-        lcd.clear();
-        delay(200);
-        lcd.setCursor(0,3);
-        lcd.print("Success");
-        digitalWrite(led, HIGH);
-        delay(3000);
-        first = 0;
-        lcd.clear();
-        digitalWrite(led, LOW);
-  
+          if (first == geslo)
+          {
+            lcd.setCursor(0,1);
+            lcd.print(first);
+            delay(200);
+            lcd.clear();
+            delay(200);
+            //lcd.setCursor(0,1);
+            lcd.print(first);
+            delay(200);
+            lcd.clear();
+            delay(200);
+            lcd.setCursor(0,3);
+            lcd.print("Success");
+            digitalWrite(led, HIGH);
+            delay(3000);
+            first = 0;
+            lcd.clear();
+            digitalWrite(led, LOW);
+          }  
+          else
+          {
+            digitalWrite(led, LOW);
+            digitalWrite(led2, HIGH);
+            delay(500);
+            digitalWrite(led2, LOW);
+            delay(500);
+            digitalWrite(led2, HIGH);
+            delay(500);
+            digitalWrite(led2, LOW);
+            lcd.setCursor(0,3);
+            lcd.print("Poskusi znova!");
+            first = 0;
+            delay(2000);
+            lcd.clear();
+          }
       }
-      else
-      {
-        digitalWrite(led, LOW);
-        digitalWrite(led2, HIGH);
-        delay(500);
-        digitalWrite(led2, LOW);
-        delay(500);
-        digitalWrite(led2, HIGH);
-        delay(500);
-        digitalWrite(led2, LOW);
-        lcd.setCursor(0,3);
-        lcd.print("Napaka si");
-        first = 0;
-        delay(2000);
+      else {
+        lcd.setCursor(0,3);   
+        lcd.print("geslo ima 4 znake");
+        delay(1000);
         lcd.clear();
+        lcd.setCursor(0,3);
+        first = 0;
       }
-  
       break;
   
     case 'C':
-      total = 0;
       first = 0;
       lcd.clear();
       break;
