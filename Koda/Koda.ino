@@ -9,9 +9,10 @@
 LiquidCrystal lcd(13, 12, 11, 10, 9, 8);
 
 long first = 0;
-long geslo = 5279;
+long geslo = 1234;
 
 char Tipka;
+int poskusi = 0;
 const byte ROWS = 4;
 const byte COLS = 4;
 bool pritisk = false;
@@ -62,45 +63,71 @@ void loop()
     case '=':
       lcd.setCursor(0,1);
       // preveri ali je vnos enak geslu
+      poskusi++;
+      if (poskusi==3)
+      {
+        digitalWrite(led, LOW);
+        digitalWrite(led2, HIGH);
+        delay(200);
+        digitalWrite(led2, LOW);
+        delay(200);
+        digitalWrite(led2, HIGH);
+        delay(500);
+        digitalWrite(led2, LOW);
+        lcd.setCursor(0,0);
+        lcd.print("3x napacen vnos"); 
+        lcd.setCursor(0,1);
+        lcd.print("pocakaj 10s");
+        delay(1000);
+        lcd.clear();
+        lcd.setCursor(0,0);
+        for(int i = 10; i>0; i--)
+        {
+          lcd.print(i);
+          delay(1000);
+          lcd.clear();
+        }
+        poskusi = 0;
+      }  
     
       if ((first/1000)>=1 && (first/1000)<10)
       {
-          if (first == geslo)
-          {
-            lcd.setCursor(0,0);
-            lcd.print(first);
-            delay(300);
-            lcd.clear();
-            delay(300);
-            lcd.setCursor(0,0);
-            lcd.print(first);
-            delay(300);
-            lcd.clear();
-            delay(300);
-            lcd.setCursor(0,3);
-            lcd.print("Success");
-            digitalWrite(led, HIGH);
-            delay(3000);
-            first = 0;
-            lcd.clear();
-            digitalWrite(led, LOW);
-          }  
-          else
-          {
-            lcd.setCursor(0,3);
-            lcd.print("Poskusi znova!");
-            digitalWrite(led, LOW);
-            digitalWrite(led2, HIGH);
-            delay(200);
-            digitalWrite(led2, LOW);
-            delay(200);
-            digitalWrite(led2, HIGH);
-            delay(500);
-            digitalWrite(led2, LOW);
-            first = 0;
-            delay(2000);
-            lcd.clear();
-          }
+        if (first == geslo)
+        {
+          lcd.setCursor(0,0);
+          lcd.print(first);
+          delay(300);
+          lcd.clear();
+          delay(300);
+          lcd.setCursor(0,0);
+          lcd.print(first);
+          delay(300);
+          lcd.clear();
+          delay(300);
+          lcd.setCursor(0,3);
+          lcd.print("Success");
+          digitalWrite(led, HIGH);
+          delay(3000);
+          first = 0;
+          lcd.clear();
+          digitalWrite(led, LOW);
+        }  
+        else
+        {
+          lcd.setCursor(0,3);
+          lcd.print("Poskusi znova!");
+          digitalWrite(led, LOW);
+          digitalWrite(led2, HIGH);
+          delay(200);
+          digitalWrite(led2, LOW);
+          delay(200);
+          digitalWrite(led2, HIGH);
+          delay(500);
+          digitalWrite(led2, LOW);
+          first = 0;
+          delay(2000);
+          lcd.clear();
+        }
       }
       else {
         lcd.setCursor(0,3);   
@@ -118,4 +145,4 @@ void loop()
       break;
     }
   } 
-}
+}                                             
