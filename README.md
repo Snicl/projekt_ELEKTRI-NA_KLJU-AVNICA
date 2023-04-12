@@ -46,7 +46,23 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 
 ## Video
 
-![Video]()
+
+
+
+
+
+
+
+
+
+https://user-images.githubusercontent.com/123487347/231368338-6748efc2-758b-4c15-93f4-75a2a985b01e.mp4
+
+
+
+
+
+
+
 
 
 
