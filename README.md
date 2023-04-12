@@ -46,6 +46,7 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 
 ## Video
 
+![Video]()
 
 
 
@@ -53,10 +54,6 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 
 
 
-
-
-
-https://github.com/Snicl/projekt_ELEKTRICNA_KLJUCAVNICA/blob/main/Media/Delovanje%20vezja.MOV
 
 ## Komentar
 Vezje deluje brezhibno po navodilih. Dodala sva tudi LCD zaslon za prikaz vnešenih vrednosti, s pritiskom na tipko " * " pa lahko uporabnik izbriše svoj vnos ob morebitni napaki. Ko vnesemo pravilno geslo, posveti zelena LED, na zaslonu pa se izpiše sporočilo, da je geslo pravilno ("Success!"). Če je vnešeno geslo napačno, lahko ponovno poskusimo z vnosom po opozorilnem sporočilu ("Poskusi znova!"). Prižge se tudi rdeča LED. Če je število vnosov nepravilno 3x zapored, se tipkovnica zablokira za 10 sekund (čas se izpisuje na zaslonu). Če smo vnesli manj/več kot 4 znake, se nam na zaslonu pojavi sporočilo "geslo ima 4 znake". Tipkovnico lahko vklopimo/izklopimo z drsnim stikalom.
