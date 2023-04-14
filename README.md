@@ -23,7 +23,7 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 
 ## Priredbeni seznam
 
-#### Vhodi
+### Vhodi
 | Oznaka v načrtu |    Naslov operanda   |    Vrsta kontakta   |    Pomen   |
 | :-----------: |    :-----------: |  :-----------:     |    -----------  |
 |       SW1      |  stikalo     |       N.O.       | Omogoči uporabo tipkovnice za vpis kombinacij             |
