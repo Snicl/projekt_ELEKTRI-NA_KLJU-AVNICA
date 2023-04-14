@@ -59,7 +59,6 @@ https://user-images.githubusercontent.com/123487347/231368338-6748efc2-758b-4c15
 Vezje deluje brezhibno po navodilih. Dodala sva tudi LCD zaslon za prikaz vnešenih vrednosti, s pritiskom na tipko " * " pa lahko uporabnik izbriše svoj vnos ob morebitni napaki. Ko vnesemo pravilno geslo, posveti zelena LED, na zaslonu pa se izpiše sporočilo, da je geslo pravilno ("Success!"). Če je vnešeno geslo napačno, lahko ponovno poskusimo z vnosom po opozorilnem sporočilu ("Poskusi znova!"). Prižge se tudi rdeča LED. Če je število vnosov nepravilno 3x zapored, se tipkovnica zablokira za 10 sekund (čas se izpisuje na zaslonu). Če smo vnesli manj/več kot 4 znake, se nam na zaslonu pojavi sporočilo "geslo ima 4 znake". Tipkovnico lahko vklopimo/izklopimo z drsnim stikalom.
 
 <br />
-<br />
 
 ## Shema EasySoft
 
