@@ -2,6 +2,8 @@
 ## Navodila
 Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno kombinacijo 4 številk (npr. 6789) odpremo ključavnico (zelena LED). Vsaka napaka vrne krmilje v izhodiščni položaj. Vpis kombinacije je mogoč samo, če je vklopljeno stikalo na pozicijo 1. 
 
+<br />
+
 ## Kosovnica
 
 | Število kosov |    Komponent   |
@@ -17,6 +19,7 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 |    3          | Upor 220E     |
 |    1          | Potenciometer 10k     |
 
+<br />
 
 ## Priredbeni seznam
 
@@ -34,15 +37,17 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 |       Zelena_LED      | led     |        1      |    Zasveti če je kombinacija številk pravilna          |    
 |      Rdeča_LED       |   led2     |        1      |       Zasveti če je kombinacija številk nepravilna       |   
 
-
+<br />
 
 ## Shema
 ![shema](https://user-images.githubusercontent.com/123487347/230547783-e755695b-7ce6-41fb-88cd-96b46885a3b1.png)
 
-
+<br />
 
 ## Slika vezja
 ![Slika vezja](https://github.com/Snicl/projekt_ELEKTRICNA_KLJUCAVNICA/blob/main/Media/Slika%20vezja.jpg?raw=true)
+
+<br />
 
 ## Video
 
@@ -58,13 +63,15 @@ Vezje deluje brezhibno po navodilih. Dodala sva tudi LCD zaslon za prikaz vneše
 
 ![Shema](https://user-images.githubusercontent.com/123487347/232062959-e0b215be-03a9-4764-a6d5-ee65452cf618.png)
 
-
+<br />
 
 ## Shema Alpha programming
 
 ![Shema](https://user-images.githubusercontent.com/123487347/232063643-6aaf1888-110d-49e3-8b77-5a0849787465.png)
 
+<br />
 
+## Video s krmilnikom MITSUBISHI
 
 
 
