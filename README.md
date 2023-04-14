@@ -74,7 +74,7 @@ Vezje deluje brezhibno po navodilih. Dodala sva tudi LCD zaslon za prikaz vneše
 
 ## Video s krmilnikom MITSUBISHI
 
-
+https://user-images.githubusercontent.com/123487347/232068001-4dc992c6-4af7-4f74-a159-cd6eb69aa778.mp4
 
 
 
