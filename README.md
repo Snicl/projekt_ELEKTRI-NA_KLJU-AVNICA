@@ -1,41 +1,41 @@
 # ELEKTRIČNA KLJUČAVNICA
+
 ## Navodila
 Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno kombinacijo 4 številk (npr. 6789) odpremo ključavnico (zelena LED). Vsaka napaka vrne krmilje v izhodiščni položaj. Vpis kombinacije je mogoč samo, če je vklopljeno stikalo na pozicijo 1. 
 
 <br />
 
 ## Kosovnica
-
-| Število kosov |    Komponent   |                          | Število kosov |    Komponent   |               
-| :-----------: |    ----------- |                            | Število kosov |    Komponent   |   
-|       1       | Arduino MEGA 2560    |                    | Število kosov |    Komponent   |   
+| Število kosov |    Komponent   |                                         
+| :-----------: |  ------------  |   
+|       1       | Arduino MEGA 2560 |                    
 |       1       | Tipkovnica 4x4 |
 |       1       | LCD            | 
 |       1       | Zelena LED     | 
-|    1          | Rdeča LED    |
-|     1         | Stikalo        |
-|    1          | Breadboard     |
-|    1          | Upor 1000E     |
-|    3          | Upor 220E     |
-|    1          | Potenciometer 10k     |
+|       1       | Rdeča LED      |
+|       1       | Stikalo        |
+|       1       | Breadboard     |
+|       1       | Upor 1000E     |
+|       3       | Upor 220E      |
+|       1       | Potenciometer 10k |
 
 <br />
 
 ## Priredbeni seznam
 
-### Vhodi
-| Oznaka v načrtu |    Naslov operanda   |    Vrsta kontakta   |    Pomen   |
-| :-----------: |    :-----------: |  :-----------:     |    -----------  |
-|       SW1      |  stikalo     |       N.O.       | Omogoči uporabo tipkovnice za vpis kombinacij             |
-|       Tipkovnica 4x4       |   Keypad    |    N.O.          | Za vpisovanje kombinacij številk             |      
+### Vhodi 
+| Oznaka v načrtu | Naslov operanda      | Vrsta kontakta      | Pomen                                          |
+|:---------------:|:--------------------:|:-------------------:|------------------------------------------------|
+| SW1             | stikalo              | N.O.                | Omogoči uporabo tipkovnice za vpis kombinacij  |
+| Tipkovnica 4x4  | Keypad               | N.O.                | Za vpisovanje kombinacij številk               |      
 
 
 ### Izhodi
-| Oznaka v načrtu |    Naslov operanda   |    Aktiven pri   |    Pomen   |
-| :-----------: |    :-----------: |  :-----------:     |    -----------  |
-|      LCD       |   lcd    |       1      |     Izpiše pritisnjene številke         |
-|       Zelena_LED      | led     |        1      |    Zasveti če je kombinacija številk pravilna          |    
-|      Rdeča_LED       |   led2     |        1      |       Zasveti če je kombinacija številk nepravilna       |   
+| Oznaka v načrtu | Naslov operanda      | Aktiven pri         | Pomen                                          |
+|:---------------:|:--------------------:|:-------------------:|------------------------------------------------|
+| LCD             | lcd                  | 1                   | Izpiše pritisnjene številke                    |
+| Zelena_LED      | led                  | 1                   | Zasveti če je kombinacija številk pravilna     |    
+| Rdeča_LED       | led2                 | 1                   | Zasveti če je kombinacija številk nepravilna   |   
 
 <br />
 
