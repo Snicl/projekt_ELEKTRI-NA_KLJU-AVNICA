@@ -62,7 +62,7 @@ Vezje deluje brezhibno po navodilih. Dodala sva tudi LCD zaslon za prikaz vneše
 
 ## Shema EasySoft
 
-![Shema](https://user-images.githubusercontent.com/123487347/232062959-e0b215be-03a9-4764-a6d5-ee65452cf618.png)
+![image](https://user-images.githubusercontent.com/129844284/232708958-dd48ac59-bb6f-458a-bf48-8cdda28cbdfd.png)
 
 <br />
 
