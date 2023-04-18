@@ -39,8 +39,8 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 
 <br />
 
-## Shema
-![shema](https://user-images.githubusercontent.com/123487347/230547783-e755695b-7ce6-41fb-88cd-96b46885a3b1.png)
+## Shema Arduino
+![shema](https://user-images.githubusercontent.com/123487347/232709398-430fc105-b7c7-4829-aa58-025c4c8cd636.png)
 
 <br />
 
