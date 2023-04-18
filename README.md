@@ -66,7 +66,7 @@ Vezje deluje brezhibno po navodilih. Dodala sva tudi LCD zaslon za prikaz vneše
 
 <br />
 
-## Shema Alpha programming
+## Shema Mitsubishi
 
 ![Shema](https://user-images.githubusercontent.com/123487347/232063643-6aaf1888-110d-49e3-8b77-5a0849787465.png)
 
