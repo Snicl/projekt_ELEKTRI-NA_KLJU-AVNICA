@@ -24,18 +24,18 @@ Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno 
 ## Priredbeni seznam
 
 ### Vhodi 
-| Oznaka v načrtu | Naslov operanda      | Vrsta kontakta      | Pomen                                          |
-|:---------------:|:--------------------:|:-------------------:|------------------------------------------------|
-| SW1             | stikalo              | N.O.                | Omogoči uporabo tipkovnice za vpis kombinacij  |      
-| Tipkovnica 4x4  | Keypad               | N.O.                | Za vpisovanje kombinacij številk               |      
+| Oznaka v načrtu | Naslov operanda | Vrsta kontakta | Pomen                                         |
+|:---------------:|:---------------:|:--------------:|-----------------------------------------------|
+| SW1             | stikalo         | N.O.           | Omogoči uporabo tipkovnice za vpis kombinacij |      
+| Tipkovnica 4x4  | Keypad          | N.O.           | Za vpisovanje kombinacij številk              |      
 
 
 ### Izhodi
-| Oznaka v načrtu | Naslov operanda      | Aktiven pri         | Pomen                                          |
-|:---------------:|:--------------------:|:-------------------:|------------------------------------------------|
-| LCD             | lcd                  | 1                   | Izpiše pritisnjene številke                    |
-| Zelena_LED      | led                  | 1                   | Zasveti če je kombinacija številk pravilna     |    
-| Rdeča_LED       | led2                 | 1                   | Zasveti če je kombinacija številk nepravilna   |   
+| Oznaka v načrtu | Naslov operanda | Aktiven pri    | Pomen                                        |
+|:---------------:|:---------------:|:--------------:|----------------------------------------------|
+| LCD             | lcd             | 1              | Izpiše pritisnjene številke                  |
+| Zelena_LED      | led             | 1              | Zasveti če je kombinacija številk pravilna   |    
+| Rdeča_LED       | led2            | 1              | Zasveti če je kombinacija številk nepravilna |   
 
 <br />
 
