@@ -62,13 +62,13 @@ Vezje deluje brezhibno po navodilih. Dodala sva tudi LCD zaslon za prikaz vneše
 
 ## Shema EasySoft
 
-![image](https://user-images.githubusercontent.com/129844284/232708958-dd48ac59-bb6f-458a-bf48-8cdda28cbdfd.png)
+![Shema](https://user-images.githubusercontent.com/129844284/232708958-dd48ac59-bb6f-458a-bf48-8cdda28cbdfd.png)
 
 <br />
 
 ## Shema Mitsubishi
 
-![image](https://user-images.githubusercontent.com/129844284/232730599-2f61a50c-ade6-449c-8417-fb9d65746181.png)
+![Shema](https://user-images.githubusercontent.com/129844284/232730599-2f61a50c-ade6-449c-8417-fb9d65746181.png)
 
 <br />
 
